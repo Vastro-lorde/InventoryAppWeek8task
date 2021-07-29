@@ -1,0 +1,23 @@
+this is so that I will remember the password for logining in.
+
+{
+    "firstName": "Joy",
+    "lastName": "Idigho",
+    "email": "IdighoJoy@gmail.com",
+    "password": "diamand",
+    "confirmPassword": "diamand"
+},
+{
+    "firstName": "Lovin",
+    "lastName": "Jonathan",
+    "email": "LovinaJonathan@gmail.com",
+    "password": "diamand",
+    "confirmPassword": "diamand"
+},
+{
+    "firstName": "Abasi-Ofon",
+    "lastName": "Otuekong",
+    "email": "AbasiOfon@gmail.com",
+    "password": "diamand",
+    "confirmPassword": "diamand"
+}
