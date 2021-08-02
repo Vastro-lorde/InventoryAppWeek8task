@@ -33,7 +33,7 @@ console.log(req.user)
             console.log(req.body.amount)
             newAmount = req.body.amount + checkItem.amount;
             console.log(newAmount);
-            const item = await Product.findOneAndUpdate({...req.body, user: req.user._id, amount: newAmount})
+            const item = await Product.findOneAndUpdate({ name: req.body.name},{...req.body, user: req.user._id, amount: newAmount})
             res.status(201).json({
                 status: 'Successfully added',
                 data: item

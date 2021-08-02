@@ -20,7 +20,7 @@ const userSchema =  new mongoose.Schema({
     },
     password: {
         type: String,
-        required: ['true', 'Please input firstName' ]
+        required: ['true', 'Please input password' ]
     },
     token: { type: String,}
 
